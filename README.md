@@ -1,8 +1,8 @@
-# test_api_postman
+# Test API
 
-Registration
+## Registration
 
-POST https://blog.kata.academy/api/users
+запрос POST https://blog.kata.academy/api/users
 
 ```
 {
@@ -14,7 +14,7 @@ POST https://blog.kata.academy/api/users
 }
 ```
 
-=>
+ответ
 
 ```
 {
@@ -26,9 +26,9 @@ POST https://blog.kata.academy/api/users
 }
 ```
 
-Authentication
+## Authentication
 
-POST https://blog.kata.academy/api/users/login
+запрос POST https://blog.kata.academy/api/users/login
 
 ```
 {
@@ -38,7 +38,7 @@ POST https://blog.kata.academy/api/users/login
   }
 }
 ```
-=>
+ответ
 
 ```
 {
@@ -50,9 +50,9 @@ POST https://blog.kata.academy/api/users/login
 }
 ```
 
-Updated user information for current user
+## Updated user information for current user
 
-PUT https://blog.kata.academy/api/user
+запрос PUT https://blog.kata.academy/api/user
 
 ```
 {
@@ -62,7 +62,7 @@ PUT https://blog.kata.academy/api/user
 }
 ```
 
-=>
+ответ
 
 ```
 {
@@ -75,9 +75,11 @@ PUT https://blog.kata.academy/api/user
 }
 ```
 
-Gets the currently logged-in user
+## Gets the currently logged-in user
 
-GET https://blog.kata.academy/api/user
+запрос GET https://blog.kata.academy/api/user
+
+ответ
 
 ```
 {
